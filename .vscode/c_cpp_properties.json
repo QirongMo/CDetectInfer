@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/mqr/opt/onnxruntime/onnxruntime-linux-x64-gpu-1.12.1/include",
+                "/home/mqr/opt/opencv/opencv/include/opencv4",
+                "/home/mqr/opt/cuda/cuda-11.8/targets/x86_64-linux/include",
+                "/home/mqr/opt/tensorrt/TensorRT-8.6.1.6/include",
+                "${workspaceFolder}/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
